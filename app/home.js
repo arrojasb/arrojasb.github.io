@@ -21,15 +21,15 @@ pnt_app.innerHTML=`
 <div class="elem" id="pags" style="width: 100%; float: left; background: rgb(255, 255, 255); height: calc(100% - 55px); position: relative;">
 <!-- INICIO -->
 
-<div class="elem full" style="float: left; text-align: center; background: rgb(255, 255, 255);"><style>.btnLink{float: left; width: 46%; margin: 2%; box-shadow: rgb(0, 0, 0) 0px 0px 5px; border-radius: 10px; padding: 5px; text-align: left;}.btnLink img{width:25px; height:25px}</style><div class="elem" style="width: 100%; height: 48px; float: left; border-radius: 0px 0px 25px 25px; margin: 0px 0px 25px; background: rgb(255, 255, 255);">
-
-</div><p class="elem" style="width: 100%; float: left; font-size: 3em; font-weight: 500; color: rgb(0, 0, 107);">edipaPlus</p><p class="elem" style="width: 100%; float: left; font-weight: 200; font-size: 1em; padding: 0px 15px;">Encuentra todos los proyectos creados y publicados desde la apk</p>
-  <img src="${imgUrl}img/default.png" class="" style="width: 150px; border-radius: 150px; height: 150px;"><div class="elem" style="width: 100%; float: left; text-align: left; padding: 10px;">
+<div class="elem full" style="float: left; text-align: center; background: rgb(255, 255, 255);"><style>.btnLink{float: left; width: 46%; margin: 2%; box-shadow: rgb(0, 0, 0) 0px 0px 5px; border-radius: 10px; padding: 5px; text-align: left;}.btnLink img{width:25px; height:25px}</style><div class="elem" style="width: 100%; height: 48px; float: left; border-radius: 0px 0px 25px 25px; margin: 0px 0px 25px; background: rgb(255, 255, 255);"></div>
+<div class="elem" style="font-size:1.3em;float: left; width: 100%; padding: 15px;"><p class="elem" style="font-size: 2em; font-weight: 900; width: 50%; float: left; text-align: right;">edipa</p><p class="elem" style="float: left; font-size: 2em; font-weight: 900; text-align: left; background: rgb(0, 0, 0); color: rgb(255, 255, 255); padding: 0px 5px; border-radius: 5px;">Plus</p></div>
+<p class="elem" style="width: 100%; float: left; font-weight: 200; font-size: 1em; padding: 0px 15px;">Encuentra todos los proyectos creados y publicados desde la apk</p>
+<div class="elem" style="width: 100%; float: left; text-align: left; padding: 10px;">
 <div class="btnLink" style="font-weight: 600;" onclick="openWeb('https://jsonblob.com/api/jsonBlob/1029927441778622464',0)">
   <img src="${imgUrl}img/globe_96.png" class="" style="float: left;">Blog Guía
 </div><div class="btnLink" style="font-weight: 600;" onclick="openWeb('https://jsonblob.com/api/jsonBlob/1027889659967193088',0)">
-  <img src="${imgUrl}img/link.png" class="" style="float: left;">Web Oficial
-</div><p class="" style="width: 100%; float: left; font-size: 30px; font-weight: 600;">Creador</p><p class="elem" style="width: 100%; float: left; font-weight: 200;">Crea tu propio espacio web como proyecto de trabajo; escuela o negocio. Crea tu proyecto online</p></div><div class="elem" style="width: 100%; float: left;"></div></div>
+  <img src="${imgUrl}img/link.png" class="" style="float: left;">Web github</div><p class="" style="width: 100%; float: left; font-size: 30px; font-weight: 600;">Developer</p><p class="elem" style="width: 100%; float: left; font-weight: 200; padding: 0px 20px; text-align: justify;">Crea tu propio espacio web como proyecto de trabajo; escuela o negocio. Crea tu proyecto online</p></div><div class="elem" style="width: 100%; float: left;"></div></div>
+
 
 <!-- FIN -->   
 </div></div>
