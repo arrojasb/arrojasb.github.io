@@ -79,7 +79,7 @@ if(txt.length>1 || txt.length==0 ){
 
 
 function ctlImg(){srcOb=""
- if(localStorage.editor==""){localStorage.editor='<div class="elem full" style="float:left"></div>';editorDiv.innerHTML=localStorage.editor}
+ if(localStorage.editor==""){localStorage.editor='<div class="elem full" style="float:left"></div>';}
  sel=document.getElementsByClassName('elem');
  for(var i=0;i<sel.length;i++){
    document.getElementsByClassName('elem')[i].addEventListener("click", function(){fotoToque(this)});
