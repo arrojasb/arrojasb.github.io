@@ -10,6 +10,7 @@
   imgUrl=''
   if(window.location=='https://varito.com/'){imgUrl='file:///android_asset/'}
   internet=`<img src="${imgUrl}img/waring.png" style="width:25px;float:left"> Not Internet access`
+  online=1
 
 
   compra=`Para registrar su cuenta debe comprar un token de acceso para su número de teléfono enviando ${price} de saldo al número 56059870 y en menos de 24horas recibir su código<br>ATENCIÓN debe realizar la transferencia desde el mismo número que va a registrar o su token no funcionará.`
