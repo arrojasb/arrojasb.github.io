@@ -279,6 +279,8 @@ function creaTk(){
 
 
 function openWeb(pag,p){
+ if(localStorage.pc==undefined){localStorage.pc= JSON.stringify([0,0])}
+
  if(localStorage.time!=dia){dataBase(5)}else{
 
 alerta(cargando)
@@ -287,7 +289,7 @@ var xhr = new XMLHttpRequest();xhr.open("GET", pag);
   xhr.setRequestHeader("Content-type", "application/json");
   xhr.onreadystatechange = function(){ if(xhr.readyState == 4){ if(xhr.responseText!=''){
 //RECUPERADO
-    cont=`<div class="close" onclick="miCuenta()">×</div>  <div class="full"> ${xhr.responseText} </div>`; 
+    cont=`<div class="closeWeb" onclick="miCuenta()">×</div>  <div class="full"> ${xhr.responseText} </div>`; 
     if(p==0){pags.innerHTML=xhr.responseText; resultSearch.innerHTML='';conf.style.display="none"}
     if(p==1){pnt_app.innerHTML=cont}
     localStorage.pc= JSON.stringify([pag,xhr.responseText])
