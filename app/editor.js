@@ -11,11 +11,11 @@ pnt_app.innerHTML=`
  <input onclick="" value="Publicar" type="button" style="height:30px;width:25%;float:left;" id="btnPub">
  <input onclick="" value="Cuenta" type="button" style="height:30px;width:25%;float:left;" id="btnCuenta">
  <input onclick="verCode()" value="Html" type="button" style="height:30px;width:25%;float:left;" id="">
- <input onclick="editor()" value="Bloque" type="button" style="height:30px;width:25%;float:left;" id="">
+ <input onclick="editor()" value="Editor" type="button" style="height:30px;width:25%;float:left;" id="">
 `;
-ctl();
 document.getElementById("btnPub").addEventListener("click", function(){publicar()});
 document.getElementById("btnCuenta").addEventListener("click", function(){miCuenta();conf.style.display="none"});
+ctl();
 }
 
 
