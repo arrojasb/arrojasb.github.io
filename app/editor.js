@@ -1,5 +1,5 @@
-styleDesing=` <input value="Listo" onclick="opt.style.display='none';dis=1;opt.innerHTML=''" type="button" style="font-size:1.3em;width:100%"> <style> p.elem, div.elem{padding:15px;border:dotted 2px #000; margin-top:25px;margin-bottom:25px}</style>`
-if(localStorage.editor=="" || localStorage.editor == undefined){localStorage.editor='<div class="elem full" style="float:left"></div>';editorDiv.innerHTML=localStorage.editor}
+styleDesing=`<input value="Listo" onclick="opt.style.display='none';dis=1;opt.innerHTML=''" type="button" style="font-size:1.3em;width:100%"> <style> p.elem, div.elem{padding:15px;border:dotted 2px #000; margin-top:25px;margin-bottom:25px}</style>`
+if(localStorage.editor=="" || localStorage.editor == undefined){localStorage.editor='<div class="elem full" style="float:left"></div>'}
 
 function editor(){
 if(localStorage.editor=="" || localStorage.editor == undefined){localStorage.editor='<div class="elem full" style="float:left"></div>'}
@@ -23,7 +23,6 @@ document.getElementById("btnCuenta").addEventListener("click", function(){miCuen
 function ctl(){
  sel=document.getElementsByClassName('elem');
  for(var i=0;i<sel.length;i++){
-   //resul=document.getElementsByClassName('elem')[i];
    document.getElementsByClassName('elem')[i].addEventListener("click", function(){toque_elem(this)});
  }
 }
