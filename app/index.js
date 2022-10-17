@@ -7,8 +7,7 @@
   maxR=30; sizeM=150
   registros="https://jsonblob.com/api/jsonBlob/1027296024062083072"
   db=[]
-  imgUrl=''
-  if(window.location=='https://varito.com/'){imgUrl='file:///android_asset/'}
+  imgUrl='file:///android_asset/'
   internet=`<img src="${imgUrl}img/waring.png" style="width:25px;float:left"> Not Internet access`
   online=1
 
